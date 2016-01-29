@@ -45,7 +45,8 @@ in your application:
         consumer_key: YOUR_CONSUMER_KEY
         consumer_secret: YOUR_CONSUMER_SECRET
         
-        ```
+```
+ 
 Step 5: How to use :
 --------------------
 You should call the ss_twitter_api service, this is an exemple on controller :
