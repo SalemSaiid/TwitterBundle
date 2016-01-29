@@ -35,15 +35,16 @@ file of your project:
 Step 4: Configure your application's config.yml
 --------------------
 
-Below is the configuration necessary to use the NmTwitterApiBundle
+Below is the configuration necessary to use the SSTwitterBundle
 in your application:
 
 ```yaml
 
     # app/config/config.yml
     parameters:
-        consumer_key: YOUR_CONSUMER_KEY
-        consumer_secret: YOUR_CONSUMER_SECRET
+        twitter_api.key: YOUR_CONSUMER_KEY
+        twitter_api.key_secret: YOUR_CONSUMER_SECRET
+
         
 ```
  
