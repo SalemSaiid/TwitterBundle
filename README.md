@@ -61,8 +61,6 @@ You should call the ss_twitter_api service, this is an exemple on controller :
     {
         $twitter = $this->get('ss_twitter_api');
         $twitter_object = $twitter->getUserTimeLine('salemsaiid',10);
-
-      
         
         return $this->render('AppBundle:Default:index.html.twig', array(
             'twitter_object' => $twitter_object
