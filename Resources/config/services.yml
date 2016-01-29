@@ -1,0 +1,4 @@
+services:
+    ss_twitter_api:
+        class: SS\TwitterBundle\Api\TwitterApi
+        arguments: [%twitter_api.key%, %twitter_api.key_secret%]

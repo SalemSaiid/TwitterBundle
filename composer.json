@@ -1,0 +1,23 @@
+{
+  "name": "SS/twitter-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony TwitterBundle",
+  "keywords": ["Twitter application", "xml", "json", "api", "web service"],
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Salem Said",
+      "email": "salem.said.ing@gmail.com",
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": ">=2.1, "twig/twig": "*",
+    "doctrine/doctrine-bundle": "*"
+  },
+  "autoload": {
+    "psr-0": { "IDCI\\Bundle\\PartnerBundle": "" }
+  },
+  "target-dir": "IDCI/Bundle/PartnerBundle",
+  "minimum-stability": "dev"
+}
