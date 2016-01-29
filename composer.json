@@ -12,7 +12,7 @@
   ],
   "require": {
     "symfony/framework-bundle": ">=2.1",
-    "abraham/twitteroauth": "*"
+    "abraham/twitteroauth": "0.6.2"
   },
   "autoload": {
     "psr-0": { "SS\\TwitterBundle": "" }
