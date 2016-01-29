@@ -26,7 +26,7 @@ file of your project:
         {
             $bundles = array(
                 // ...
-                new SS\TwitterBundle\TwitterBundle(),
+                new SS\TwitterBundle\SSTwitterBundle(),
             );
             // ...
         }
