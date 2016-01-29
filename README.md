@@ -57,7 +57,7 @@ You should call the nm_twitter.manager service, this is an exemple on controller
     public function indexAction()
     {
         $twitter = $this->get('ss_twitter_api');
-        $twitter_object = $twitter->getUserTimeLine('vcomfreedom',40);
+        $twitter_object = $twitter->getUserTimeLine('salemsaiid',10);
 
       
         
